@@ -1,0 +1,91 @@
+.update-container {
+  width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+   position: relative;
+    left: 220px;
+    
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-section {
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 20px;
+  margin-bottom: 40px;
+  
+}
+
+.search-section input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  
+  
+}
+
+.search-section button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.search-section button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.form-container1 {
+  
+ display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 20px;
+ 
+}
+
+.form-container input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+ 
+}
+
+.update-btn {
+  background-color: #28a745;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
